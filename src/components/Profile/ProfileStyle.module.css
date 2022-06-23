@@ -1,0 +1,54 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+};
+
+.avatar{
+  display: block;
+  height: 120px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 1px solid green;
+};
+
+.username{
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 20px;
+};
+
+.tag{
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: grey;
+};
+
+.location{
+  margin-bottom: 20px;
+  color: grey;
+};
+
+.list{
+  display: flex;
+};
+
+.item{
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #eee;
+  border: 1px solid grey;
+};
+
+.label{
+  margin-bottom: 5px;
+  color: grey;
+};
+
+.value{
+  font-weight: 700;
+};

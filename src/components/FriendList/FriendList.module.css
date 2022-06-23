@@ -1,0 +1,44 @@
+.list{
+    display: flex;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.status {
+    display: block;
+
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+
+    border-radius: 50%;
+}
+
+.status__true {
+    border: 10px solid #00ff15;
+    border-radius: 50%;
+}
+
+.status__false {
+    border: 10px solid #fd0000;
+    border-radius: 50%;
+}
+
+.avatar {
+    padding: 15px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: 700;
+}
