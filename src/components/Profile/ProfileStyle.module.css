@@ -1,40 +1,41 @@
-.container{
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-bottom: 20px;
-};
+}
 
-.avatar{
+.avatar {
   display: block;
   height: 120px;
   margin-bottom: 20px;
   border-radius: 50%;
-  border: 1px solid green;
-};
+  border: 1px solid grey;
+}
 
-.username{
+.username {
   margin-bottom: 20px;
   font-weight: 700;
-  font-size: 20px;
-};
+  font-size: 30px;
+}
 
-.tag{
+.tag {
   margin-bottom: 20px;
   font-weight: 700;
   color: grey;
-};
+}
 
-.location{
+.location {
   margin-bottom: 20px;
   color: grey;
-};
+}
 
-.list{
+.list {
   display: flex;
-};
+  padding: 0;
+}
 
-.item{
+.item {
   width: 50px;
   display: flex;
   flex-direction: column;
@@ -42,13 +43,13 @@
   padding: 20px;
   background-color: #eee;
   border: 1px solid grey;
-};
+}
 
-.label{
+.label {
   margin-bottom: 5px;
   color: grey;
-};
+}
 
-.value{
+.value {
   font-weight: 700;
-};
+}
