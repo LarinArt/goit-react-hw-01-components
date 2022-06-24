@@ -1,6 +1,6 @@
 import { Section } from "components/SectionStyle";
 import PropTypes from 'prop-types';
-import css from './TransactionHistoryStyle.module.css';
+import css from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ items }) => {
     return <Section>
