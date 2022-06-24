@@ -23,13 +23,13 @@
 }
 
 .status__true {
-    border: 10px solid #00ff15;
-    border-radius: 50%;
+    composes: status;
+    background-color: #00ff15;
 }
 
 .status__false {
-    border: 10px solid #fd0000;
-    border-radius: 50%;
+    composes: status;
+    background-color: #ff0000;
 }
 
 .avatar {
