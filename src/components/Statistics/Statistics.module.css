@@ -1,19 +1,22 @@
-.title{
-    display: flex;
-    justify-content: center;
+.title {
+  padding: 25px 0;
+
+  color: #4f585e;
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
 }
 
-.list{
-    display: flex;
-    justify-content: space-around;
+.list {
+  display: flex;
+  justify-content: center;
 }
 
 .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
-    width: 60px;
-    padding: 20px;
+  width: 60px;
+  padding: 20px;
 }
-

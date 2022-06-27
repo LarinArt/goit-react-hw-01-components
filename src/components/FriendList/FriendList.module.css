@@ -1,44 +1,53 @@
-.list{
-    display: flex;
-    align-items: center;
+.list {
+  width: 300px;
+  margin: auto;
 }
 
 .item {
-    display: flex;
-    align-items: center;
-    margin-left: 10px;
-    margin-bottom: 15px;
-    padding: 5px;
-    border: 1px solid #000;
+  display: flex;
+  align-items: center;
+  padding: 5px 0 5px 15px;
+
+  background-color: #ffffff;
+
+  box-shadow: 0px 1px 1px rgb(0 0 0 / 12%), 0px 4px 4px rgb(0 0 0 / 6%),
+    1px 4px 6px rgb(0 0 0 / 16%);
+
+  opacity: 1;
+  transition: opacity 250ms linear;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 15px;
 }
 
 .status {
-    display: block;
+  display: block;
 
-    width: 15px;
-    height: 15px;
-    margin-right: 20px;
+  width: 15px;
+  height: 15px;
+  margin-right: 20px;
 
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 .status__true {
-    composes: status;
-    background-color: #00ff15;
+  composes: status;
+  background-color: #00ff15;
 }
 
 .status__false {
-    composes: status;
-    background-color: #ff0000;
+  composes: status;
+  background-color: #ff0000;
 }
 
 .avatar {
-    padding: 15px;
-    margin-right: 20px;
-    border: 1px solid #ccc;
+  padding: 15px;
+  margin-right: 20px;
+  border: 1px solid #ccc;
 }
 
 .name {
-    font-size: 20px;
-    font-weight: 700;
+  font-size: 20px;
+  font-weight: 700;
 }
